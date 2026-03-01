@@ -11,6 +11,9 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "axios": "^1.7.9",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "framer-motion": "^12.23.12",

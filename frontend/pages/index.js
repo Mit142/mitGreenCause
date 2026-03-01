@@ -65,10 +65,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="relative w-full lg:w-1/2 h-[300px] lg:h-[60vh] flex justify-center items-center overflow-hidden">
-            <div className="absolute w-full h-full">
-              <ImageCarousel />
-            </div>
+          <div className="relative w-full lg:w-1/2 h-[400px] sm:h-[450px] md:h-[500px] lg:h-[60vh] overflow-hidden">
+            <ImageCarousel />
           </div>
         </div>
 
@@ -141,7 +139,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* COLLABORATORS — FIXED + UPDATED */}
+        {/* COLLABORATORS */}
         <div className="flex flex-col items-center my-20 px-4 sm:px-6 md:px-8 text-center">
           <h3 className="font-fredoka text-3xl md:text-3xl mb-10 text-emerald-700">
             Our Collaborators

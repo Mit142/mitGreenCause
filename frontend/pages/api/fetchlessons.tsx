@@ -11,7 +11,7 @@ export default async (req, res) => {
 
       return response.data;
     } catch (error) {
-      console.error(`Error fetching lessons: ${error}`);
+      console.log(`Error fetching lessons: ${error}`);
       return null;
     }
   };

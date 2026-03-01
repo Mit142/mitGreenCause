@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black px-6 pb-4 space-y-2">
+        <div className="md:hidden bg-brown-500 px-6 pb-4 space-y-2">
           <NavLinks
             mobile
             openDropdown={openDropdown}

@@ -7,6 +7,7 @@ export default async (req, res) => {
       // Replace with the URL of your Go backend that serves the lessons
       // const response = await axios.get('http://173.225.103.252:8080/lessons');
       // const response = await axios.get(`http://173.225.103.252:8080/lessons`); // Changed from axios.get to axios.post
+      console.log("Attempting to reach lessons server...");
       const response = await axios.get(`http://173.225.103.252:8080/lessons`); // Changed from axios.get to axios.post
 
       return response.data;
